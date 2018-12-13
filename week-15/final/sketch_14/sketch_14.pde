@@ -47,6 +47,19 @@ void draw() {
   } else {
     fill(255);
   }
+  
+  // if (dist(mouseX, mouseY, width/4, height/4) < 50) {
+  //  fill(0);
+  //}
+  //if (dist(mouseX, mouseY, width/4, 3 * height/4) < 50) {
+  //  fill(0);
+  //}
+  //if (dist(mouseX, mouseY, 3 * width/4, height/4) < 50) {
+  //  fill(0);
+  //}
+  //if (dist(mouseX, mouseY, 3 * width/4, 3 * height/4) < 50) {
+  //  fill(0);
+  //}
   ellipse(3 * width/4, 3 * height/4, 100, 100);
 }
 
