@@ -64,3 +64,17 @@ void mousePressed() {
     on4 = true;
   }
 }
+void mouseReleased() {
+  if (dist(mouseX, mouseY, width/4, height/4) < 50) {
+    on1 = false;
+  }
+  if (dist(mouseX, mouseY, width/4, 3 * height/4) < 50) {
+    on2 = false;
+  }
+  if (dist(mouseX, mouseY, 3 * width/4, height/4) < 50) {
+    on3 = false;
+  }
+  if (dist(mouseX, mouseY, 3 * width/4, 3 * height/4) < 50) {
+    on4 = false;
+  }
+}
